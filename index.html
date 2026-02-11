@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PeerLink - Connect Students</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>PeerLink</h1>
+    <p>Connect with students, share skills, and find study buddies!</p>
+  </header>
+
+  <section class="add-student">
+    <h2>Create Your Profile</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="department" placeholder="Department">
+    <input type="text" id="skills" placeholder="Skills (comma separated)">
+    <input type="text" id="lookingFor" placeholder="Looking For (comma separated)">
+    <button onclick="addStudent()">Add Profile</button>
+  </section>
+
+  <section class="matches">
+    <h2>Suggested Matches</h2>
+    <button onclick="showMatches()">Show Matches</button>
+    <div id="matchesList" class="matches-grid"></div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
