@@ -18,14 +18,25 @@ PeerLink is a simple frontend-only web application that helps students connect w
 ## 📂 Project Structure
 PeerLink/
 │
-├── index.html          → Home Page
-├── login.html          → Login Page
-├── register.html       → Registration Page
-├── dashboard.html      → User Dashboard
+├── index.html        → Home Page
+├── login.html        → Login Page
+├── register.html     → Registration Page
+├── dashboard.html    → User Dashboard
+│
 ├── css/
-│   └── style.css       → Styling File
+│   └── style.css     → Styling File
+│
 ├── js/
-│   └── script.js       → JavaScript File
-└── README.md           → Project Documentation
+│   └── script.js     → JavaScript File
+│
+└── README.md         → Project Documentation
+
+▶ How to Run the Project
+1) Download the project folder.
+2) Open the folder in your system.
+3) Double click on index.html
+4)The application will open in browser.
+
+
 
 
