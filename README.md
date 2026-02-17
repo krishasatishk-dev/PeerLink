@@ -16,4 +16,16 @@ PeerLink is a simple frontend-only web application that helps students connect w
 - JavaScript (Vanilla)
 
 ## 📂 Project Structure
+PeerLink/
+│
+├── index.html          → Home Page
+├── login.html          → Login Page
+├── register.html       → Registration Page
+├── dashboard.html      → User Dashboard
+├── css/
+│   └── style.css       → Styling File
+├── js/
+│   └── script.js       → JavaScript File
+└── README.md           → Project Documentation
+
 
